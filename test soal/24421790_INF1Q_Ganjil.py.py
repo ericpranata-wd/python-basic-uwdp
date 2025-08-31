@@ -1,0 +1,71 @@
+nama_1=(input ('masukan nama pemeran pertama:'))
+nama_2=(input ('masukan nama pemeran kedua:'))
+nama_3=(input ('masukan nama pemeran ketiga:'))
+
+print(f'{nama_1}:hallo semua!')
+print(f'{nama_2}:hallo.')
+print(f'{nama_3}:hallo.')
+print(f'{nama_1}:apakah teman-teman sekalian berkenan untuk belajar bersama?')
+print(f'{nama_2}:untuk apa kita belajar?')
+print(f'{nama_3}:besok kan kita memiliki tugas presentasi.')
+print(f'{nama_1}:ya, benar alangkah baiknya kita mengetahui betul apa yang kita jelaskan.')
+print(f'{nama_2}:santai saja, presentasi kan tinggal baca.')
+print(f'{nama_3}:barangkali kita diberikan pertanyaan kamu mau jawab apa?')
+print(f'{nama_1}:{nama_3} benar, pada saat presentasi biasa akan diakhiri sesi tanya jawab.')
+print(f'{nama_2}:kalau mau belajar, aku tidak ikut, lebih baik aku tidur.')
+print(f'{nama_3}:baiklah, jika seperti itu, aku dan {nama_1} tidak akan segan melaporkan kamu kepada bapak  ibu guru.')
+print(f'{nama_1}:kami akan melakukannya.')
+print(f'{nama_2}:jangan seperti itu, kita kan teman.')
+print(f'{nama_3}:kalau tidak mau belajar ya bagaimana lagi?')
+print(f'{nama_2}:baiklah aku akan ikut kalian.')
+
+
+
+
+print('        -----------------------------------')
+print('       /                                   \\')
+print('      /                                     \\')
+print('     /                                       \\')
+print('    |                                         |')
+print('    |   kalkulator bangun prisma heksagonal   |')
+print('    |                                         |')
+print('     \\                                       /')
+print('      \\                                     /')
+print('       \\                                   /')
+print('        -----------------------------------')
+print(' ')
+print(' ')
+
+s=(float(input('masukan nilai sisi prisma heksagonal   : ')))
+t=(float(input('masukan nilai tinggi prisma heksagonal : ')))
+
+print(' ')
+print(' ')
+print('dengan rumus  volume  =3s\u00b2t')
+print('dengan rumus   luas   =6(s\u00b2+st)')
+print('dengan rumus keliling =6(2s+t)')
+print(' ')
+print(' ')
+print(f'nilai  volume  prisma adalah {3*(s**2)*t} cm\u00b3')
+print(f'nilai   luas   prisma adalah {6*((s**2)+(s*t))} cm\u00b2')
+print(f'nilai keliling prisma adalah {6*((s*2)+t)} cm')
+print(' ')
+print('='*20,'end','='*20)
+print(' ')
+
+
+ 
+print('jika n = batu yang terambil')
+print(' dan x = jarak yang di tempuh kakek')
+print('maka')
+print(' ')
+def n(x):
+    y=(x**(2**-1)+((10**-2)*x)+1)
+    return (y)
+
+
+print('nilai n untuk x=50 meter adalah   : ',n(50*(10**-3)))
+print('nilai n untuk x=100 meter adalah  : ',n(100*(10**-3)))
+print('nilai n untuk x=500 meter adalah  : ',n(500*(10**-3)))
+print('nilai n untuk x=1000 meter adalah : ',n(1000*(10**-3)))
+print('nilai n untuk x=2000 meter adalah : ',n(2000*(10**-3)))

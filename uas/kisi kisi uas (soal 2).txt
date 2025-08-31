@@ -1,0 +1,15 @@
+count=1
+batu=0
+tambah=1
+aray=[]
+pilih=int(input('Masukan banyak langkah kakek : '))
+for count in range(1,pilih+1):
+    batu=0
+    if count%2==1:
+        if count%3!=0:
+            batu=batu+tambah
+    if count%10==0:
+        tambah=tambah*2
+    count=count+1
+    aray.append(batu)
+print(aray)

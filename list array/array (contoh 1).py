@@ -1,0 +1,21 @@
+print('===================')
+print('|                 |')
+print('|     ABSENSI     |')
+print('|                 |')
+print('===================')
+print()
+r=int(input('Masukan jumlah manusia : '))
+lst=[]
+for i in range (r):
+    nama=input('Masukan nama manusia : ')
+    lst.append(nama)
+lst.sort()
+print()
+print('=================================')
+print('|   Nama yang sudah absen   ')
+print('|')
+print('|')
+for i in range(1,r+1):
+    print(f'|  {i}. {lst[i-1]}')
+print('=================================')
+input('Tekan enter untuk exit   ')

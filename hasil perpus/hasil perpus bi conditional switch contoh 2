@@ -1,0 +1,43 @@
+print('|===================================|')
+print('|>>          daftar menu          <<|')
+print('|===================================|')
+print('|1. Indomie rebus + telur           |')
+print('|2. Bubur ayam                      |')
+print('|3. Nasi kuning                     |')
+print('|4. Soto                            |')
+print('|5. Sate ayam                       |')
+print('|6. Nasi goreng                     |')
+print('|===================================|')
+pilihan=int(input ('Masukan nomor makanan    : '))
+jumlah=int(input ('Masukan jumlah pemesanan : '))
+
+if pilihan ==1 or pilihan ==2:
+    harga=10000
+elif pilihan ==3 or pilihan ==4 or pilihan ==5:
+    harga=15000
+elif pilihan ==6:
+    harga=12000
+
+# match pilihan:
+#     case 1|2:
+#         harga = 10000
+#     case 3|4|5:
+#         harga = 15000
+#     case 6:
+#         harga = 12000
+
+digit=1
+spasi =harga*jumlah
+while spasi>=10:
+    spasi=spasi//10
+    digit=digit+1
+print (digit)
+# whtSpc = " " * 10
+# print(f"a{whtSpc}b")
+# exit
+
+print("")
+print('|=============================================='+'='*(digit)+'|')
+print('|>>     Total pemesanan anda adalah Rp.',harga*jumlah,'    <<|')
+print('|=============================================='+'='*(digit)+'|')
+input('tekan enter unutuk exit   ')
